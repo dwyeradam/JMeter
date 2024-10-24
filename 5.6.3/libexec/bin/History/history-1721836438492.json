@@ -1,0 +1,28 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/snapshot-1721836534667.jmx",
+    "recordingTraceFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/recording-1721836535536.jtl",
+    "replayTraceFilepath" : null,
+    "timestamp" : "2024-07-24T15:55:35.801540Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after recording"
+  }, {
+    "stepMessage" : "Replay without requests to attend",
+    "testPlanFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/snapshot-1721836542910.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Replay/replay-1721836545018.jtl",
+    "timestamp" : "2024-07-24T15:55:51.955757Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after replay"
+  }, {
+    "stepMessage" : "Replay without requests to attend",
+    "testPlanFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/snapshot-1721836549677.jmx",
+    "recordingTraceFilepath" : null,
+    "replayTraceFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Replay/replay-1721836551748.jtl",
+    "timestamp" : "2024-07-24T15:55:58.186508Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after replay"
+  } ],
+  "historyId" : "1721836438492"
+}

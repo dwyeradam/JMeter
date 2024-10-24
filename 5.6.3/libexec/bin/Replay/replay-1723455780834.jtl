@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="93" it="0" lt="93" ct="26" ts="1723455781922" s="false" lb="cawi_lms_home" rc="404" rm="Not Found" tn="Thread Group 1-1" dt="text" de="iso-8859-1" by="2045" sby="819" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 404 Not Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html
+Content-Security-Policy: default-src &apos;self&apos; https://*.virtualearth.net https://*.arcgis.com; style-src &apos;self&apos; &apos;unsafe-inline&apos;; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; https://*.googleapis.com https://*.arcgis.com; img-src &apos;self&apos; https://*.virtualearth.net https://*.googleapis.com https://*.gstatic.com https://*.arcgis.com data:; font-src &apos;self&apos; data:; frame-ancestors &apos;none&apos;; connect-src &apos;self&apos; https://*.googleapis.com https://*.gstatic.com data: blob:; form-action &apos;self&apos;; frame-src *; object-src &apos;none&apos;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Date: Mon, 12 Aug 2024 09:43:01 GMT
+Content-Length: 1245
+Via: 1.1 google
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Sec-Fetch-Mode: navigate
+Referer: https://tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk/opn2401_tst/
+Sec-Fetch-Site: same-origin
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Not)A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;127&quot;, &quot;Chromium&quot;;v=&quot;127&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;macOS&quot;
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Host: tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#xd;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xd;
+&lt;head&gt;&#xd;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;&#xd;
+&lt;title&gt;404 - File or directory not found.&lt;/title&gt;&#xd;
+&lt;style type=&quot;text/css&quot;&gt;&#xd;
+&lt;!--&#xd;
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}&#xd;
+fieldset{padding:0 15px 10px 15px;} &#xd;
+h1{font-size:2.4em;margin:0;color:#FFF;}&#xd;
+h2{font-size:1.7em;margin:0;color:#CC0000;} &#xd;
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} &#xd;
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:&quot;trebuchet MS&quot;, Verdana, sans-serif;color:#FFF;&#xd;
+background-color:#555555;}&#xd;
+#content{margin:0 0 0 2%;position:relative;}&#xd;
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}&#xd;
+--&gt;&#xd;
+&lt;/style&gt;&#xd;
+&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+&lt;div id=&quot;header&quot;&gt;&lt;h1&gt;Server Error&lt;/h1&gt;&lt;/div&gt;&#xd;
+&lt;div id=&quot;content&quot;&gt;&#xd;
+ &lt;div class=&quot;content-container&quot;&gt;&lt;fieldset&gt;&#xd;
+  &lt;h2&gt;404 - File or directory not found.&lt;/h2&gt;&#xd;
+  &lt;h3&gt;The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.&lt;/h3&gt;&#xd;
+ &lt;/fieldset&gt;&lt;/div&gt;&#xd;
+&lt;/div&gt;&#xd;
+&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk/opn2401_tst/logout</java.net.URL>
+</httpSample>
+
+</testResults>

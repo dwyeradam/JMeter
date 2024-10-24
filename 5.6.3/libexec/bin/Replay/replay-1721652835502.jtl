@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="318" it="0" lt="318" ct="222" ts="1721652836616" s="false" lb="cati_opn_cati_no_note" rc="426" rm="Upgrade Required" tn="Thread Group 1-1" dt="text" de="utf-8" by="584" sby="761" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 426 Upgrade Required
+Content-Security-Policy: default-src &apos;none&apos;; form-action &apos;none&apos;; frame-ancestors &apos;none&apos;; sandbox
+Content-Type: text/plain; charset=utf-8
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000
+upgrade: websocket
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+x-github-alive: GitHub Alive (950b29d0) @ frontend-d6cf6794f-fg7qk
+Date: Mon, 22 Jul 2024 12:53:57 GMT
+Content-Length: 81
+X-GitHub-Request-Id: 3B71:32E69A:ABB8C:E9FF5:669E5664
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-GB
+Upgrade: websocket
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+Origin: https://desktop.github.com
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Sec-WebSocket-Key: i2VFSVCv0FGGwYzS8xKlcw==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) GitHubDesktop/3.4.2 Chrome/124.0.6367.230 Electron/30.0.8 Safari/537.36
+Host: alive.github.com
+</requestHeader>
+  <responseData class="java.lang.String">WebSocket protocol violation: Connection header &quot;close&quot; does not contain Upgrade
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://alive.github.com/_sockets/u/28533375/ws?session=eyJ2IjoiVjMiLCJ1IjoyODUzMzM3NSwicyI6bnVsbCwiYyI6MjgyNjY3Mjk0NywidCI6MTcyMTY1MDY1N30%3D--05f37f7468cb234c9fcd851da2cc52789f4bf4f65b47925b4f54fd9862322f99&amp;shared=false&amp;p=913708620_1721644825.13</java.net.URL>
+</httpSample>
+
+</testResults>

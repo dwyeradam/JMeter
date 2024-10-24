@@ -1,0 +1,12 @@
+{
+  "steps" : [ {
+    "stepMessage" : "Original Recording",
+    "testPlanFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/snapshot-1721312822671.jmx",
+    "recordingTraceFilepath" : "/usr/local/Cellar/jmeter/5.6.3/libexec/bin/Recording/recording-1721312822673.jtl",
+    "replayTraceFilepath" : null,
+    "timestamp" : "2024-07-18T14:27:02.676644Z",
+    "fatherTimeStamp" : null,
+    "notes" : "Automatically generated iteration after recording"
+  } ],
+  "historyId" : "1721312231958"
+}

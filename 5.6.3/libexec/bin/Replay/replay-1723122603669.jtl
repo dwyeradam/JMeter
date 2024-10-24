@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="191" it="0" lt="191" ct="65" ts="1723122604756" s="false" lb="cawi_lms_home" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="text" de="UTF-8" by="315" sby="723" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 403 Forbidden
+Content-Length: 134
+Content-Type: text/html; charset=UTF-8
+Date: Thu, 08 Aug 2024 13:10:05 GMT
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Not)A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;127&quot;, &quot;Chromium&quot;;v=&quot;127&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;macOS&quot;
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Host: tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=viewport content=&quot;width=device-width, initial-scale=1&quot;&gt;&lt;title&gt;403&lt;/title&gt;403 Forbidden</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk/lms2401_he1/</java.net.URL>
+</httpSample>
+
+</testResults>

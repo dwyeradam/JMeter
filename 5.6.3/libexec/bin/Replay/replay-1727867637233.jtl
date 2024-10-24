@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="55" it="0" lt="0" ct="27" ts="1727867638373" s="true" lb="lcf_rst_login" rc="204" rm="No Content" tn="Thread Group 1-1" dt="" de="" by="304" sby="380" sc="1" ec="0" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Wed, 02 Oct 2024 11:13:58 GMT
+X-Cache: MISS from centraltestframeworkproxy
+X-Cache-Lookup: MISS from centraltestframeworkproxy:3128
+Via: 1.1 centraltestframeworkproxy (squid/4.13)
+Connection: keep-alive
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Cache-Control: no-cache
+Pragma: no-cache
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Host: www.gstatic.com
+Proxy-Connection: Keep-Alive
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.gstatic.com/generate_204</java.net.URL>
+</httpSample>
+<httpSample t="117" it="0" lt="112" ct="23" ts="1727867639434" s="true" lb="lcf_rst_login" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" de="utf-8" by="5993" sby="748" sc="1" ec="0" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: private,no-cache
+Pragma: no-cache
+Content-Type: text/html; charset=utf-8
+Content-Security-Policy: default-src &apos;self&apos; https://*.virtualearth.net https://*.arcgis.com; style-src &apos;self&apos; &apos;unsafe-inline&apos;; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; https://*.googleapis.com https://*.arcgis.com; img-src &apos;self&apos; https://*.virtualearth.net https://*.googleapis.com https://*.gstatic.com https://*.arcgis.com data:; font-src &apos;self&apos; data:; frame-ancestors &apos;none&apos;; connect-src &apos;self&apos; https://*.googleapis.com https://*.gstatic.com data: blob:; form-action &apos;self&apos;; frame-src *; object-src &apos;none&apos;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Date: Wed, 02 Oct 2024 11:13:59 GMT
+Content-Length: 5177
+Via: 1.1 google
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;macOS&quot;
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+Host: tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;&#xd;
+&lt;html data-critters-container&gt;&#xd;
+&lt;head&gt;&#xd;
+    &lt;base href=&quot;/lms2401_he1/&quot;&gt;&#xd;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;&#xd;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=11&quot;&gt;&#xd;
+    &lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;&#xd;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#xd;
+    &lt;meta name=&quot;google&quot; content=&quot;notranslate&quot;&gt;&#xd;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/lms2401_he1/favicon.ico&quot;&gt;&#xd;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/lms2401_he1/Resources/EmbeddedFonts.css&quot;&gt;&#xd;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.374b9d23d79fdb74.css&quot; media=&quot;print&quot; onload=&quot;this.media=&apos;all&apos;&quot;&gt;&lt;noscript&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.374b9d23d79fdb74.css&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&#xd;
+&lt;body&gt;&#xd;
+    &lt;div id=&quot;initialLoader&quot; aria-hidden=&quot;true&quot; aria-disabled=&quot;true&quot; class=&quot;visibility: visible;background-color: #e7e7e7;position: absolute;top: 0;left: 0;width: 100%;height: 100%;text-align: center;z-index: 9999 !important;&quot;&gt;&#xd;
+        &lt;img style=&quot;visibility: visible; opacity: 1; position: absolute; top: calc(50% - 11.5px); left: calc(50% - 66px);&quot; src=&quot;data:image/gif;base64,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&quot; alt=&quot;Loading page&quot;&gt;&#xd;
+    &lt;/div&gt;&#xd;
+    &lt;app-root id=&quot;blaise-runtime&quot;&gt;&lt;/app-root&gt;&#xd;
+&#xd;
+    &lt;!--$(VersionString)--&gt;&#xd;
+    &lt;script type=&quot;text/javascript&quot;&gt;&#xd;
+        var runtimeParametersFromWebConfig = { MeasurePageTimes: false };&#xd;
+        var postRuntimeParameters = {  }&lt;/script&gt;&#xd;
+&lt;script src=&quot;runtime.29f56078b6dda80e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a866ee089608f378.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;vendor.0b79ec80fbb5798e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.5c5cbe4d7bf37196.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;/body&gt;&#xd;
+&lt;/html&gt;&#xd;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://tlfs-blaise-mm-systest.tiss.gcp.onsdigital.uk/lms2401_he1/</java.net.URL>
+</httpSample>
+
+</testResults>

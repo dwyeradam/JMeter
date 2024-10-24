@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="146" it="0" lt="146" ct="30" ts="1721311746804" s="false" lb="cati_opn_no_note" rc="403" rm="Forbidden" tn="Thread Group 1-1" dt="" de="" by="600" sby="610" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 403 Forbidden
+Server: Apple
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;self&apos;;
+X-REQUEST-ID: C36E3C2B-18FC-454C-8F8B-FF3BF7930300
+Date: Thu, 18 Jul 2024 14:09:07 GMT
+X-Cache: TCP_MISS from a23-59-171-20.deploy.akamaitechnologies.com (AkamaiGHost/11.5.4.1-57528572) (-)
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Request-ID: C36E3C2B-18FC-454C-8F8B-FF3BF7930300
+Accept-Language: en-GB,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+User-Agent: WeatherKit_WeatherWidget_macOS_Version 14.5 (Build 23F79)
+Host: weatherkit.apple.com
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://weatherkit.apple.com/v3/weather/en-GB/51.500/-0.167?timezone=Europe%2FLondon&amp;dataSets=airQuality%2CcurrentWeather%2CforecastDaily%2CforecastHourly%2CforecastNextHour%2CweatherAlerts&amp;relativeHourlyStart=0&amp;relativeHourlyEnd=24&amp;hourlyRelativeTo=now&amp;country=GB&amp;deviceLanguages=en-GB&amp;clientMetadata=CgJHQhoFZW4tR0JKAFABWAlgBIABA5gBALoBAhAB4gEICgseHR8hICXyAQJHQg</java.net.URL>
+</httpSample>
+
+</testResults>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1" it="0" lt="0" ct="1" ts="1721836558023" s="false" lb="cawi_opn_login" rc="Non HTTP response code: org.apache.http.conn.HttpHostConnectException" rm="Non HTTP response message: Connect to localhost:8888 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused" tn="Thread Group 1-1" dt="text" de="" by="2582" sby="0" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Apple-Maps-OS-Build: 23F79
+Accept-Language: en-GB,en;q=0.9
+X-Apple-Maps-App-Identifier: com.apple.geod
+X-Apple-Maps-App-Version-Minor: 1940.25.2.20.6
+Accept: */*
+X-Apple-Maps-App-Version-Major: 1.0
+X-Apple-Maps-OS-Version: 14.5
+X-Apple-Maps-Request-Type: 0x20b22
+X-Apple-Maps-OS-Name: macOS
+Content-Type: application/octet-stream
+Accept-Encoding: gzip, deflate, br
+User-Agent: com.apple.geod/1940.25.2.20.6 CFNetwork/1496.0.7 Darwin/23.5.0
+Content-Length: 150
+Host: gsp-ssl.ls.apple.com
+</requestHeader>
+  <responseData class="java.lang.String">org.apache.http.conn.HttpHostConnectException: Connect to localhost:8888 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl$JMeterDefaultHttpClientConnectionOperator.connect(HTTPHC4Impl.java:409)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:401)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.executeRequest(HTTPHC4Impl.java:940)
+	at org.apache.jmeter.protocol.http.sampler.HTTPHC4Impl.sample(HTTPHC4Impl.java:651)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerProxy.sample(HTTPSamplerProxy.java:66)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1311)
+	at org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase.sample(HTTPSamplerBase.java:1300)
+	at org.apache.jmeter.threads.JMeterThread.doSampling(JMeterThread.java:651)
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:570)
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:501)
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:268)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 19 more
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x0;&#x1;&#x0;&#x8;en-GB_GB&#x0;&#xe;com.apple.geod&#x0;&#xd;
+14.5.23F79&#x0;&#x0;&#x3;�&#x0;&#x0;&#x0;V&#xd;
+$EFC320DC-3008-45B8-9026-47803776539D&#x1a;.&#xd;
+&#x2;GB&#x1a;&#x5;en-GBJ&#x0;P&#x1;X&#x10;`&#x3;�&#x1;&#x3;�&#x1;&#x0;�&#x1;&#x2;&#x10;&#x1;�&#x1;&#x8;&#xd;
+&#xb;&#x1e;&#x1d;&#x1f;! %�&#x1;&#x2;GB</queryString>
+  <java.net.URL>https://gsp-ssl.ls.apple.com/ab.arpc</java.net.URL>
+</httpSample>
+
+</testResults>

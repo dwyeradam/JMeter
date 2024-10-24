@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="121" it="0" lt="121" ct="32" ts="1723207207005" s="false" lb="cawi_lms_home" rc="400" rm="Bad Request" tn="Thread Group 1-1" dt="text" de="UTF-8" by="468" sby="572" sc="1" ec="1" ng="1" na="1" hn="Admins-MacBook-Pro.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Bad Request
+Content-Type: text/html; charset=UTF-8
+Referrer-Policy: no-referrer
+Content-Length: 273
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Upgrade: websocket
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+Origin: https://tiss-grafana.tiss.gcp.onsdigital.uk
+Sec-WebSocket-Version: 13
+Pragma: no-cache
+Sec-WebSocket-Key: vA16o5z4IKg5nVNvY1cIkg==
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Host: tiss-grafana.tiss.gcp.onsdigital.uk
+</requestHeader>
+  <responseData class="java.lang.String">
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://tiss-grafana.tiss.gcp.onsdigital.uk/api/live/ws</java.net.URL>
+</httpSample>
+
+</testResults>
